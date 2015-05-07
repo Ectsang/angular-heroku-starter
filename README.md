@@ -9,3 +9,36 @@ Turns out – if your Angular app has no backend, i.e. no Node.js, Ruby (Rails/S
 [read more](http://erictsang.co/deploying-your-angular-to-heroku/)
 
 Clone this repo and follow along at: [Deploying Your Angular to Heroku](http://erictsang.co/deploying-your-angular-to-heroku/)
+
+## Steps
+git clone https://github.com/Ectsang/angular-heroku-starter.git
+
+cd angular-heroku-starter
+
+yo angular-seed
+
+? What would you like to call your angular app (and base module)? demo
+
+? Angular version?
+
+? UI Router version? (Or just press enter if you don't want this library) latest
+
+? jQuery Version? (Or just press enter if you don't want this library)
+
+? Bootstrap version? (Or just press enter if you don't want this library)
+
+? Underscore Version? (Or just press enter if you don't want this library)
+
+   create demo/package.json
+   
+   ...
+   
+   create demo/README.md
+
+cd demo
+
+npm install
+
+bower install
+
+
